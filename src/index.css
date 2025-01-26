@@ -8,9 +8,6 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.d-flex {
-  display: flex;
-}
 
 /* HEADER */
 header {
@@ -29,98 +26,6 @@ header {
 
 /* MAIN */
 
-.container {
-  max-width: 1000px;
-  min-height: 100px;
-  margin: 0 auto;
-
-  .input-area {
-    margin: 40px auto;
-
-    input,
-    button {
-      font-size: 1.2rem;
-      margin-right: 20px;
-      padding: 10px 15px;
-      border-radius: 10px;
-    }
-
-    input {
-      width: 300px;
-      text-align: start;
-    }
-
-    button {
-      background-color: rgb(0, 110, 255);
-      color: white;
-      margin-top: 20px;
-    }
-
-    label {
-      display: block;
-      width: 200px;
-      margin-top: 25px;
-    }
-
-    form {
-      flex-wrap: wrap;
-      justify-content: space-between;
-
-      .tags-area {
-        margin-top: 25px;
-        display: flex;
-
-        span {
-          display: block;
-        }
-
-        label {
-          margin-top: 0;
-          width: 100px;
-        }
-
-        input {
-          display: block;
-          width: 15px;
-          margin-left: 20px;
-          margin-right: 5px;
-        }
-      }
-    }
-
-  }
-
-  h2 {
-    border-bottom: 1px solid grey;
-    margin-bottom: 60px;
-  }
-
-  ul {
-    li {
-      list-style: none;
-      margin-bottom: 15px;
-      font-size: 1.2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-
-      .fa-trash {
-        margin-left: 20px;
-        background-color: red;
-        border: 1px solid black;
-        border-radius: 5px;
-        padding: 5px;
-      }
-
-      .fa-pencil {
-        background-color: green;
-        border: 1px solid black;
-        border-radius: 5px;
-        padding: 5px;
-        color: white;
-      }
-    }
-
-  }
-
+.container-fm {
+  max-width: 800px;
 }
